@@ -9,7 +9,7 @@ dp = updater.dispatcher
 dp = setup_dispatcher(dp)
 # Run bot
 if HEROKU_APP_NAME is None:  # pooling mode
-    print("Bot has started")
+    print("Bot has been started successfully ...")
     updater.start_polling(allowed_updates=Update.ALL_TYPES)
     updater.idle()
 
