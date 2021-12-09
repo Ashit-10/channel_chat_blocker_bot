@@ -66,7 +66,7 @@ def help(update, context):
   if str(update.message.chat.type) == "private":
      update.message.reply_text(f"""- Add me to group, give admin rights (ban users and delete messages atleast)
    and `/start` to enable/activate me\n
-- `/approvechat` <tag to message/channel id> :-
+- `/approvechat` <tag to message/channel username or id> :-
    _to approve your Channel id (so that you can chat through your channel)_\n
 - `/disapprovechat` <tag to message/channel id> :-
    _to ban/disable/block that particular channel id_\n
