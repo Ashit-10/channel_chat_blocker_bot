@@ -1,0 +1,23 @@
+{
+    "name": "channel_chat_blocker_bot",
+    "description": "Deploy a Telegram bot that will help you so muchh...",
+    "keywords": [
+      "telegram-bot",
+      "python",
+      "proxy"
+    ],
+    "website": "https://github.com/Hrushikesh69/channel_chat_block",
+    "repository": "https://github.com/Hrushikesh69/channel_chat_block",
+    "success_url": "https://github.com/Hrushikesh69/channel_chat_block",
+    "env": {
+      "HEROKU_APP_NAME": {
+        "description": "The name of your Heroku app. Yes, again. Just copy-paste it!"
+      },
+      "TELEGRAM_TOKEN": {
+        "description": "Your bot's token. Visit https://t.me/BotFather"
+      },
+      "OWNER_ID": {
+        "description": "Enter your user ID"
+      }
+    }
+}
