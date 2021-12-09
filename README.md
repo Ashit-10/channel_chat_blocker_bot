@@ -9,7 +9,7 @@
 - Add me to group , give admin rights (for ban and delete messages atleast)
   and /start to enable/activate me
 
-- /approvechat <tag to message/channel id> :-
+- /approvechat <tag to message/channel username or id> :-
    to approve your Channel id (so that you can chat through your channel)
 
 - /disapprovechat <tag to message/channel id> :-
