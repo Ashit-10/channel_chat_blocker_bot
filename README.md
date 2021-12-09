@@ -37,12 +37,14 @@ NB:
 git clone https://github.com/Ashit-10/channel_chat_blocker_bot
 ```
 
-You need to specify these env variables to run the bot. createa `.env` text file.
+You need to specify these env variables to run the bot. create a `.env` file.
 
 Add this var 
 ```
 TELEGRAM_TOKEN="YOUR_TELEGRAM_BOT_TOKEN"  # your bot's token
 ```
+or replace token in `settings.py`
+
 then `pip -r requirements.txt`
 
 Now start the bot
