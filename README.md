@@ -1,6 +1,8 @@
 ## channel_chat_blocker_bot
 
 
+[![bot logo](https://telegra.ph/file/6e53c92afb8f1784fb86b.jpg)](https://github.com/Ashit-10/channel_chat_blocker_bot)
+
 ## Features of this bot
 ```
 
