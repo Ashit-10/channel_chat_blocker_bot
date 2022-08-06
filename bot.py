@@ -219,8 +219,8 @@ def ban_channel_updates(update, context):
   pp=[]
   pe=[]
   groupu=f"@{update.message.chat.username}"
-  if os.path.isfile(f"{group}_ban_appr_lists.txt"):
-   if id.startswith('-100') or id in '777000':
+#  if os.path.isfile(f"{group}_ban_appr_lists.txt"):
+  if id.startswith('-100') or id in '777000':
     if str(context.bot.get_chat(update.message.chat_id).linked_chat_id) == id:
        pass
     if str(update.message.chat_id) == id:
